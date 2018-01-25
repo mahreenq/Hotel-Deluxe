@@ -131,3 +131,30 @@ and (min-width:600px){
 	background-position: right;
 
 }
+
+.diamonds{
+	background: url('../../src/assets/images/diamonds3.png');
+	height: 200vh;
+	background-size: cover;
+	background-position: top;
+}
+.bed{
+	background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)), 
+    url('../../src/assets/images/Bed.jpg');
+	height: 400px;
+	max-width: 415px;
+	background-size: cover;
+	background-position: center;
+}
+.bath{
+	background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)), 
+    url('../../src/assets/images/Bath.jpg');
+	height: 400px;
+	max-width: 415px;
+	background-size: cover;
+	background-position: center;
+}
