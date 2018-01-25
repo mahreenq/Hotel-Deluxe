@@ -104,3 +104,30 @@ and (min-width:600px){
 		text-align: right
 	}
 }
+
+
+.copperBorderFocus:focus{
+	border: 1px solid rgb(148,100, 62);
+	outline: none;
+}
+
+.bottomCopperBorder{
+	border-bottom: 1px solid rgb(148,100, 62);
+}
+
+.profile{
+	background: url('../../src/assets/images/pattern.png');
+	height: 500px;
+    background-size: 100%;
+	background-repeat:repeat-y;
+    background-position: center;
+}
+.profileImg{
+	background: url('../../src/assets/images/director.jpg');
+	filter: grayscale(80%);
+	height: 345px;
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-position: right;
+
+}

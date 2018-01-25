@@ -25,12 +25,31 @@
 }
 
 .copper{
-	color: rgb(148,100, 62);
+	color: rgb(171, 115, 61);
 }
+
+// .coppercmyk{
+// 	color: cmyk(27%, 51%, 74%, 8%);
+// }
 .white{
 	color: white;
 }
 
+.grey{
+	color: rgb(109,110,113);
+}
+
 .xl-font{
 	font-size: 4rem;
+}
+
+.med-Font{
+	font-size: 36px;
+}
+
+.lineHeight-xsm{
+	line-height: 25px;
+}
+.lineHeight-sm{
+	line-height: 30px;
 }
