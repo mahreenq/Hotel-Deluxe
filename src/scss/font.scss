@@ -1,43 +1,36 @@
 
+@font-face {
+	font-family: Gotham-Bold;
+	src: url("../../src/assets/fonts/Gotham-Bold.otf");
+}
 
-.color-white{
+@font-face {
+	font-family: Gotham-Book;
+	src: url("../../src/assets/fonts/Gotham-Book.otf");
+}
+
+@font-face {
+	font-family: Gotham-Light;
+	src: url("../../src/assets/fonts/Gotham-Light.otf");
+}
+
+.gothamBold{
+	font-family: Gotham-Bold;
+}
+.gothamBook{
+	font-family: Gotham-Book;
+}
+.gothamLight{
+	font-family: Gotham-Light;
+}
+
+.copper{
+	color: rgb(148,100, 62);
+}
+.white{
 	color: white;
 }
 
-.font-family-raleway {
-	font-family:'Raleway', sans-serif;
-}
-.playfairdisplay {
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-}
-.italics_playfairdisplay {
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	font-weight: 400;
-}
-
-.fontshadow {
-	text-shadow: 4px 4px 4px #737373;
-}
-
-.boldfont{
-	font-weight: bold;
-}
-
-.greyfont {
-	color: #969696;
-}
-.redorangefont {
-  color:#e2574c
-}
-
-.fontsize-med {
-  font-size: 1.6rem;
-}
-.fontsize40px {
-	font-size: 30px;
-}
-.fontsize-sm{
-	font-size:20px;
+.xl-font{
+	font-size: 4rem;
 }
