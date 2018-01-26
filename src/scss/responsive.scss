@@ -1,8 +1,7 @@
-.copperBorderFocus:focus{
-    border: 1px solid rgb(148,100, 62);
-}
 
 @media only screen
 and (min-width:600px){
-
+    br{
+        display: block !important;
+    }
 }
